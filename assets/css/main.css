@@ -1,0 +1,47 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.box{
+  width: 220px;
+  height: auto;
+  box-shadow: 8px 10px 14px -8px #CECECE;
+  float: left;
+  text-align: center;
+  background-color: #F4F1F1;
+  padding: 30px 14px 0 14px;
+  margin: 5px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  display: inline-block;
+}
+
+.size-icon{
+  font-size: 50px;
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
+  color: #777777;
+}
+
+h5{
+  font-style: italic;
+}
+p{
+  color: #48aeb5;
+}
+
+.box:hover{
+  padding-top: 20px;
+  color: #fff;
+  background-color: #fff;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  color:#8C8F98;
+  -webkit-trasnsition: all .05s ease-in-out;
+}
